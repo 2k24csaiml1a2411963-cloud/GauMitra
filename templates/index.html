@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GauMItra</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <footer class="top-banner">
+  <img src="{{ url_for('static', filename='footer.jpg') }}" alt="NDDB Footer">
+  <div class="banner-quote">
+    <marquee><span>🌻 "किसान हमारे देश की रीढ़ हैं — तकनीक से बने उनका हर कदम आसान" 🌻 ||"तकनीक से सशक्त किसान — समृद्ध भारत का निर्माण||" ||@GauMitra Portal!!</span></marquee>
+  </div>
+</footer>
+<body>
+  <div class="container">
+    <header>
+      <h1 class="m1">GauMitra</h1>
+      <h1>Indian Cow Breed Recognition System</h1>
+      <p class="subtitle">AI-Powered Identification</p>
+    </header>
+    <section class="overview">
+     
+
+      <div class="btn-group">
+        <a href="{{ url_for('predict_page') }}" class="btn">Explore Now</a>
+        <a href="{{ url_for('predict_page') }}" class="btn secondary">"हमारी वेबसाइट को देखें और एक्सप्लोर करें"</a>
+
+      </div>
+    </section>
+  </div>
+
+<footer class="footer">
+  <div class="footer-content">
+    <p>🌾 <b>गौमित्र पोर्टल</b> | किसानों के लिए एक स्मार्ट समाधान 🇮🇳</p>
+    <p>यह परियोजना भारतीय गाय नस्लों की पहचान और संरक्षण हेतु विकसित की गई है।</p>
+    <p><b>समर्थन:</b> कृषि एवं पशुपालन मंत्रालय, भारत सरकार</p>
+    <p>© 2025 गौमित्र | आत्मनिर्भर भारत की ओर एक कदम !!</p>
+  </div>
+</footer>
+</body>
+</html>
