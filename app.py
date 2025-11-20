@@ -6,7 +6,7 @@ from PIL import Image
 import os
 import sqlite3
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
